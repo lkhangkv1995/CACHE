@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use CACHE, please cite the software repository and specify the commit used."
+title: "CACHE: Canonical Analysis of Collagen in Hematoxylin and Eosin Slide Images"
+type: software
+version: 0.1.0
+license: MIT

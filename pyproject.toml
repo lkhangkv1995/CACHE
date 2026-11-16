@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache-histology"
+version = "0.1.0"
+description = "CACHE: training-free collagen-like stromal architecture analysis in H&E images"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "CACHE contributors"}]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "scikit-image>=0.21", "matplotlib>=3.7", "pillow>=9.5"]
+
+[project.optional-dependencies]
+demo = ["jupyter>=1.0", "pandas>=2.0"]
+test = ["pytest>=7.0"]
+
+[project.scripts]
+cache-he = "cache.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["cache*"]

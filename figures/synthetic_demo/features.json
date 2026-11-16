@@ -1,0 +1,9 @@
+{
+  "candidate_fraction": 0.5070241292317709,
+  "orientation_coverage": 0.9961278025781211,
+  "ridge_coverage": 0.28806741234889904,
+  "global_alignment": 0.9542622524845467,
+  "dominant_orientation_deg": 0.7847865458516635,
+  "mean_local_alignment": 0.980740325780689,
+  "mpp_um": null
+}
