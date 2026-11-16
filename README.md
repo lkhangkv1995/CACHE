@@ -40,9 +40,9 @@ plot_review(r, 'cache_output/review.png', title='Synthetic example')
 
 The example below uses the **histopathology of collagenous colitis** image supplied with the demonstration dataset. The six panels show (A) H&E, (B) eosin-rich stromal candidates, (C) continuous structure confidence, (D) optional ridge candidates, (E) orientation vectors, and (F) local axial alignment. **These are collagen-like architectural measurements, not validated collagen segmentation.**
 
-![CACHE analysis on real H&E histopathology of collagenous colitis](figures/real_demo/review_Histopathology_of_collagenous_colitis.png)
+![CACHE analysis on real H&E histopathology of collagenous colitis](figures/real_demo/review_Histopathology_of_moderate_fibrosis.png)
 
-*Real-world CACHE demonstration: collagenous colitis.* Qualitative review is necessary: epithelial and inflammatory regions may be detected, and the presence of strong directional texture does not prove collagen specificity. The image was supplied by the user; its publicly listed source is [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Histopathology_of_collagenous_colitis.jpg). Check source-specific attribution and redistribution terms before publishing the repository. The original image's MPP was not verified; measurements here are pixel-based.
+*Real-world CACHE demonstration: moderate fibrosis (liver).* Qualitative review is necessary: epithelial and inflammatory regions may be detected, and the presence of strong directional texture does not prove collagen specificity. The image was supplied by the user; its publicly listed source is [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Histopathology_of_moderate_fibrosis.jpg). Check source-specific attribution and redistribution terms before publishing the repository. The original image's MPP was not verified; measurements here are pixel-based.
 
 To reproduce this figure from the repository root:
 
